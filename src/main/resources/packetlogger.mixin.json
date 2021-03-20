@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.packetlogger.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"ClientConnectionAccessor",
+		"ClientConnectionMixin",
+		"CustomPayloadC2SPacketAccessor",
+		"CustomPayloadS2CPacketAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

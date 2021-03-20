@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "packetlogger",
+	"version": "${version}",
+	"name": "Packet Logger",
+	"description": "Logs sent and received packets for both the client and server.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Packet-Logger#readme",
+		"issues": "https://github.com/haykam821/Packet-Logger/issues"
+	},
+	"mixins": [
+		"packetlogger.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/packetlogger/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
